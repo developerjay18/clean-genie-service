@@ -4,7 +4,7 @@ import { cleaningServices, navItems } from './data';
 
 function Footer() {
   return (
-    <footer className="mt-28 pt-10 px-12 bg-copy-grey flex flex-col gap-10 font-poppins">
+    <footer className="pt-10 px-12 bg-copy-grey flex flex-col gap-10 font-poppins">
       {/* upper  */}
       <div className="upper flex gap-10">
         {/* left  */}

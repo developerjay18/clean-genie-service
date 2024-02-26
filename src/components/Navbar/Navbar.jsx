@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="bg-copy-grey fixed w-full top-0 py-5 px-12 font-poppins">
+    <nav className="bg-copy-grey fixed w-full top-0 py-5 px-12 font-poppins z-20">
       {/* relative div  */}
       <div className="flex">
         {/* left */}
