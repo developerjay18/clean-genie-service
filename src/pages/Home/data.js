@@ -6,49 +6,58 @@ const services = [
     title: 'Domestic cleaning',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004505/cleaning%20genie/i3tsinbkwcdx8u0jf5yc.jpg',
     link: '',
-    title: '',
+    title: 'commercial cleaning',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/bal3w61ewsofjcxzraag.jpg',
     link: '',
-    title: '',
+    title: 'End of lease cleaning',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004505/cleaning%20genie/vsbqyqljesyvqhepl9ia.jpg',
     link: '',
-    title: '',
+    title: ' spring cleaning ',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004505/cleaning%20genie/jyjaquwapocqmazvtxpo.jpg',
     link: '',
-    title: '',
+    title: 'once of cleaning ',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/u1eozlpm5xknhaq7kqw3.jpg',
     link: '',
-    title: '',
+    title: 'steam carpet cleaning ',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709005431/cleaning%20genie/yluxrgaefgzbrpa9avnq.jpg',
     link: '',
-    title: '',
+    title: 'pressure washing ',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004503/cleaning%20genie/ypkurjyjwf7tlt4uq3gq.jpg',
     link: '',
-    title: '',
+    title: 'tile and grout cleaning ',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/h5wpoak61snozjpel4rs.jpg',
     link: '',
-    title: '',
+    title: ' windows cleaning',
   },
   {
-    imgUrl: '',
+    imgUrl:
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/ju4urg8zr7py7fjxkmxl.jpg',
     link: '',
-    title: '',
+    title: 'industrial cleaning',
   },
 ];
 
