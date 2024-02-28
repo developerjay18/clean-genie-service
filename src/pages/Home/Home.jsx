@@ -70,7 +70,7 @@ function Home() {
         ))}
       </div>
 
-      {/* request a quote  */}
+      {/* request a quote section */}
       <div className="quote pt-10 pb-20 px-12 mb-1">
         <h2 className="text-center text-lg flex gap-2 justify-center w-full">
           <span className="font-bold">Request a quote.</span>
