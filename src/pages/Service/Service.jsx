@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { sideBarData } from './data';
+import { ScrollToTop } from '../../components';
 
 function Service() {
   return (
     <div className="font-poppins px-12 py-20">
+      <ScrollToTop />
       {/* spacer  */}
       <div className="mt-[9rem]"></div>
 

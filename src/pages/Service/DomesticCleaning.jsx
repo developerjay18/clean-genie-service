@@ -1,10 +1,11 @@
 import React from 'react';
 import { houseCleaningPoints, housecleaningData } from './data';
-import { ContactForm } from '../../components';
+import { ContactForm, ScrollToTop } from '../../components';
 
 function DomesticCleaning() {
   return (
     <div className="w-[80%] flex flex-col gap-3">
+      <ScrollToTop />
       {/* heading  */}
       <div className="">
         <h2 className="text-4xl capitalize text-copy-green font-semibold border-b pb-3">

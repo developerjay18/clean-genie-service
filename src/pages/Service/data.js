@@ -93,10 +93,34 @@ const commCleanPoints = [
   'Resilient floor cleaning',
 ];
 
+const WindowsCPoints = [
+  'Multi story window clean',
+  'Fly screen cleaning',
+  'Window frame cleaning',
+  'Window pane cleaning',
+  'Wash inside and outside of window frames',
+  'Wipe window sills inside and out',
+  'Remove cobwebs from windows and frames',
+  'Brush clean fly screens',
+];
+
+const carpetCPoints = [
+  'Better protection against germs, bacteria, mould and fungi',
+  'Reduce allergens in the home',
+  'Remove most stains',
+  'Extend the life of your furnishings',
+  'Fully trained, trusted technicians',
+  'Tried-and-tested stain and sanitisation treatments',
+  'Personalised quote and advice',
+  '100% satisfaction guarantee',
+];
+
 export {
   sideBarData,
   housecleaningData,
   houseCleaningPoints,
   commercialCleaningCards,
-  commCleanPoints
+  commCleanPoints,
+  WindowsCPoints,
+  carpetCPoints,
 };

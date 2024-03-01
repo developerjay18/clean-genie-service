@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import { services } from './data';
+import { ScrollToTop } from '../../components';
 
 function Home() {
   return (
     <div className="max-w-screen overflow-hidden font-poppins">
+      <ScrollToTop />
       {/* spacer  */}
       <div className="mt-[9rem]"></div>
 

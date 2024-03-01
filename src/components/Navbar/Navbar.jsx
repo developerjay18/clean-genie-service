@@ -9,90 +9,85 @@ function Navbar() {
         {/* left */}
         <div className="left w-[20%]">
           <div className="w-[70%]">
-            <img
-              src="https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708929682/cleaning%20genie/alhnad5jvfsyisyx7hh8.svg"
-              alt=""
-              className=""
-            />
+            <Link to={'/'}>
+              <img
+                src="https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708929682/cleaning%20genie/alhnad5jvfsyisyx7hh8.svg"
+                alt=""
+                className=""
+              />
+            </Link>
           </div>
         </div>
         {/* right  */}
         <div className="right w-[80%] flex justify-between items-center">
           <div className="items flex w-full gap-10">
             {/* item 1  */}
-            <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-5 hover:bg-white p-5">
-              <div className="flex flex-col">
-                <span className="text-copy-green font-semibold text-lg">
-                  Services
-                </span>
-                {/* <span className="text-[#9b9b9b] text-xs">
+            <Link to={'/'}>
+              <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-5 hover:bg-white p-5">
+                <div className="flex flex-col">
+                  <span className="text-copy-green font-semibold text-lg">
+                    Home
+                  </span>
+                  {/* <span className="text-[#9b9b9b] text-xs">
                   We're ready to help
                 </span> */}
+                </div>
+                <div className="">
+                  <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
+                </div>
               </div>
-              <div className="">
-                <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
-              </div>
-            </div>
+            </Link>
 
             {/* item 2 */}
-            <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
-              <div className="flex flex-col">
-                <span className="text-copy-green font-semibold text-lg">
-                  Get a Quote
-                </span>
-                {/* <span className="text-[#9b9b9b] text-xs">
+            <Link to={'/services'}>
+              <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
+                <div className="flex flex-col">
+                  <span className="text-copy-green font-semibold text-lg">
+                    Services
+                  </span>
+                  {/* <span className="text-[#9b9b9b] text-xs">
                   We'll respond right away
                 </span> */}
+                </div>
+                <div className="">
+                  <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
+                </div>
               </div>
-              <div className="">
-                <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
-              </div>
-            </div>
+            </Link>
 
             {/* item 3 */}
-            <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
-              <div className="flex flex-col">
-                <span className="text-copy-green font-semibold text-lg">
-                  About
-                </span>
-                {/* <span className="text-[#9b9b9b] text-xs">
+            <Link to={'/about-us'}>
+              <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
+                <div className="flex flex-col">
+                  <span className="text-copy-green capitalize font-semibold text-lg">
+                    About
+                  </span>
+                  {/* <span className="text-[#9b9b9b] text-xs">
                   We'll respond right away
                 </span> */}
+                </div>
+                <div className="">
+                  <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
+                </div>
               </div>
-              <div className="">
-                <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
-              </div>
-            </div>
+            </Link>
 
             {/* item 4  */}
-            <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
-              <div className="flex flex-col">
-                <span className="text-copy-green font-semibold text-lg">
-                  client
-                </span>
-                {/* <span className="text-[#9b9b9b] text-xs">
+            <Link to={'/contact-us'}>
+              <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
+                <div className="flex flex-col">
+                  <span className="text-copy-green font-semibold text-lg">
+                    Contact Us
+                  </span>
+                  {/* <span className="text-[#9b9b9b] text-xs">
                   We'll respond right away
                 </span> */}
+                </div>
+                <div className="">
+                  <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
+                </div>
               </div>
-              <div className="">
-                <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
-              </div>
-            </div>
-
-            {/* item 5  */}
-            <div className="item cursor-pointer border-l border-[#dad9d9] flex items-center gap-10 hover:bg-white p-5">
-              <div className="flex flex-col">
-                <span className="text-copy-green font-semibold text-lg">
-                  Testimonials
-                </span>
-                {/* <span className="text-[#9b9b9b] text-xs">
-                  We'll respond right away
-                </span> */}
-              </div>
-              <div className="">
-                <i className="fa-solid fa-play fa-xs text-[#666666]"></i>
-              </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

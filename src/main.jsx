@@ -10,14 +10,19 @@ import {
 } from 'react-router-dom';
 import {
   About,
-  Client,
+  CarpetCleaning,
   CommercialCleaning,
   Contact,
   DomesticCleaning,
   EndOFLeaseC,
   Home,
+  IndustrialCleaning,
+  OnceOffCleaning,
+  PressureWashing,
   Service,
-  Testimonial,
+  SpringCleaning,
+  TileAndGrout,
+  WindowCleaning,
 } from './pages/index.js';
 
 const router = createBrowserRouter(
@@ -39,12 +44,32 @@ const router = createBrowserRouter(
           path="/services/end-of-lease-cleaning"
           element={<EndOFLeaseC />}
         />
+        <Route path="/services/spring-cleaning" element={<SpringCleaning />} />
+        <Route path="/services/windows-cleaning" element={<WindowCleaning />} />
+        <Route
+          path="/services/steam-carpet-cleaning"
+          element={<CarpetCleaning />}
+        />
+        <Route
+          path="/services/once-off-cleaning"
+          element={<OnceOffCleaning />}
+        />
+        <Route
+          path="/services/pressure-washing"
+          element={<PressureWashing />}
+        />
+        <Route
+          path="/services/tile-and-grout-cleaning"
+          element={<TileAndGrout />}
+        />
+        <Route
+          path="/services/industrial-cleaning"
+          element={<IndustrialCleaning />}
+        />
       </Route>
 
-      <Route path="/about" element={<About />} />
-      <Route path="/clients" element={<Client />} />
-      <Route path="/testimonials" element={<Testimonial />} />
-      <Route path="/get-a-quote" element={<Contact />} />
+      <Route path="/about-us" element={<About />} />
+      <Route path="/contact-us" element={<Contact />} />
     </Route>
   )
 );

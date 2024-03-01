@@ -1,14 +1,17 @@
 const cleaningServices = [
-  { service: 'domestic cleaning', slug: '' },
-  { service: 'commercial cleaning', slug: '' },
-  { service: 'End of lease cleaning', slug: '' },
-  { service: 'spring cleaning', slug: '' },
-  { service: 'once off cleaning', slug: '' },
-  { service: 'steam carpet cleaning', slug: '' },
-  { service: 'pressure washing', slug: '' },
-  { service: 'tile and grout cleaning', slug: '' },
-  { service: 'windows cleaning', slug: '' },
-  { service: 'industrial cleaning', slug: '' },
+  { service: 'domestic cleaning', slug: '/services/domestic-cleaning' },
+  { service: 'commercial cleaning', slug: '/services/commercial-cleaning' },
+  { service: 'End of lease cleaning', slug: '/services/end-of-lease-cleaning' },
+  { service: 'spring cleaning', slug: '/services/spring-cleaning' },
+  { service: 'once off cleaning', slug: '/services/once-off-cleaning' },
+  { service: 'steam carpet cleaning', slug: '/services/steam-carpet-cleaning' },
+  { service: 'pressure washing', slug: '/services/pressure-washing' },
+  {
+    service: 'tile and grout cleaning',
+    slug: '/services/tile-and-grout-cleaning',
+  },
+  { service: 'windows cleaning', slug: '/services/windows-cleaning' },
+  { service: 'industrial cleaning', slug: '/services/industrial-cleaning' },
 ];
 
 const navItems = [
@@ -22,19 +25,11 @@ const navItems = [
   },
   {
     name: 'about',
-    slug: '/about',
+    slug: '/about-us',
   },
   {
-    name: 'clients',
-    slug: '/clients',
-  },
-  {
-    name: 'testimonials',
-    slug: '/testimonials',
-  },
-  {
-    name: 'get a quote',
-    slug: '/get-a-quote',
+    name: 'contact us',
+    slug: '/contact-us',
   },
 ];
 

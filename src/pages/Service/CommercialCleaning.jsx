@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { commCleanPoints, commercialCleaningCards } from './data';
-import { ContactForm } from '../../components';
+import { ContactForm, ScrollToTop } from '../../components';
 
 function CommercialCleaning() {
   return (
     <div className="w-[80%] flex flex-col gap-3">
+      <ScrollToTop />
       {/* heading  */}
       <div className="">
         <h2 className="text-4xl capitalize text-copy-green font-semibold border-b pb-3 text-center">
