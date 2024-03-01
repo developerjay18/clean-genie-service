@@ -9,7 +9,7 @@ function Home() {
     <div className="max-w-screen overflow-hidden font-poppins">
       <ScrollToTop />
       {/* spacer  */}
-      <div className="mt-[9rem]"></div>
+      <div className="lg:mt-[2rem]"></div>
 
       {/* hero section  */}
       <div className="background-container">
