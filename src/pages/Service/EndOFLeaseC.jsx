@@ -3,7 +3,7 @@ import { ContactForm, ScrollToTop } from '../../components';
 
 function EndOFLeaseC() {
   return (
-    <div className="w-[80%] flex flex-col gap-3">
+    <div className="lg:w-[80%] flex flex-col gap-3">
       <ScrollToTop />
       {/* heading  */}
       <div className="">
@@ -97,7 +97,9 @@ function EndOFLeaseC() {
       </div>
 
       {/* contact form  */}
+      <div className="mt-5 lg:mt-0">
       <ContactForm />
+      </div>
     </div>
   );
 }

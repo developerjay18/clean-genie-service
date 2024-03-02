@@ -14,7 +14,7 @@ function WindowCleaning() {
       </div>
 
       {/* content  */}
-      <div className=" flex gap-3">
+      <div className=" flex flex-col lg:flex-row gap-7 lg:gap-3">
         {/* left  */}
         <div className="left lg:w-[50%] flex flex-col gap-2">
           <div className="flex flex-col gap-2">
@@ -57,7 +57,9 @@ function WindowCleaning() {
       </div>
 
       {/* conatct form  */}
+      <div className="mt-10 lg:mt-0">
       <ContactForm />
+      </div>
     </div>
   );
 }

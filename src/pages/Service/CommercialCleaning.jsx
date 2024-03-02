@@ -5,7 +5,7 @@ import { ContactForm, ScrollToTop } from '../../components';
 
 function CommercialCleaning() {
   return (
-    <div className="w-[80%] flex flex-col gap-3">
+    <div className="lg:w-[80%] flex flex-col gap-3">
       <ScrollToTop />
       {/* heading  */}
       <div className="">
@@ -71,9 +71,9 @@ function CommercialCleaning() {
               Your local V.I.P. Commercial Cleaning business provides a complete
               service – backed by our 100% satisfaction guarantee.
             </p>
-            <div className="flex flex-wrap justify-between gap-y-6 py-6">
+            <div className="flex flex-wrap justify-between gap-y-7 lg:gap-y-6 py-6">
               {commercialCleaningCards.map((item, index) => (
-                <div className="card w-[30%] flex flex-col gap-3" key={index}>
+                <div className="card lg:w-[30%] flex flex-col gap-3" key={index}>
                   <div className="img">
                     <img src={item.imgUrl} alt="" className="mx-auto" />
                   </div>

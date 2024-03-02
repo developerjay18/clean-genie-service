@@ -6,11 +6,11 @@ function Footer() {
   return (
     <footer className="pt-10 px-12 bg-copy-grey flex flex-col gap-10 font-poppins">
       {/* upper  */}
-      <div className="upper flex gap-10">
+      <div className="upper flex flex-col lg:flex-row gap-10">
         {/* left  */}
-        <div className="left w-[20%] flex flex-col gap-4">
+        <div className="left lg:w-[20%] flex flex-col gap-4">
           {/* l-up */}
-          <div className="w-[80%]">
+          <div className="lg:w-[80%]">
             <Link to={'/'}>
               <img
                 src="https://res.cloudinary.com/remind-cents-cloud/image/upload/v1708929682/cleaning%20genie/alhnad5jvfsyisyx7hh8.svg"
@@ -46,7 +46,7 @@ function Footer() {
         </div>
         {/* right  */}
         <div className="right w-[80%]">
-          <div className="item-list flex gap-24">
+          <div className="item-list flex flex-col lg:flex-row gap-8 lg:gap-24">
             {/* col-1  */}
             <div className="item">
               <h3 className="text-lg uppercase text-[#474747] font-semibold">
@@ -126,9 +126,9 @@ function Footer() {
         </div>
       </div>
       {/* lower  */}
-      <div className="lower pt-10 border-t pb-2 flex justify-between text-[#6b6b6b]">
-        <div className="left">&copy; Copyright All Rights Reserved 2024</div>
-        <div className="right">
+      <div className="lower pt-5 lg:pt-10 border-t pb-2 flex justify-between text-[#6b6b6b] gap-1 flex-col lg:flex-row">
+        <div className="left text-center">&copy; Copyright All Rights Reserved 2024</div>
+        <div className="right text-center">
           Developed by{' '}
           <Link
             to={'https://www.jayraiweb.com'}

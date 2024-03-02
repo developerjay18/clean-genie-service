@@ -4,7 +4,7 @@ import { ContactForm, ScrollToTop } from '../../components';
 
 function DomesticCleaning() {
   return (
-    <div className="w-[80%] flex flex-col gap-3">
+    <div className="lg:w-[80%] flex flex-col gap-3">
       <ScrollToTop />
       {/* heading  */}
       <div className="">

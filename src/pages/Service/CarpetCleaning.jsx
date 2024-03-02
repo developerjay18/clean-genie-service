@@ -14,7 +14,7 @@ function CarpetCleaning() {
       </div>
 
       {/* content  */}
-      <div className="content flex">
+      <div className="content flex flex-col lg:flex-row gap-7 lg:gap-0">
         {/* left */}
         <div className="left lg:w-[50%]">
           <img
@@ -58,7 +58,9 @@ function CarpetCleaning() {
       </div>
 
       {/* contact form  */}
-      <ContactForm />
+      <div className="mt-10 lg:mt-0">
+        <ContactForm />
+      </div>
     </div>
   );
 }

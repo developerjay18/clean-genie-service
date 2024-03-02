@@ -5,15 +5,15 @@ import { ScrollToTop } from '../../components';
 
 function Service() {
   return (
-    <div className="font-poppins px-12 py-20">
+    <div className="font-poppins px-5 lg:px-12 py-5 lg:py-20">
       <ScrollToTop />
       {/* spacer  */}
-      <div className="mt-[9rem]"></div>
+      <div className="lg:mt-[2rem]"></div>
 
       {/* hero section  */}
-      <div className="flex justify-between">
+      <div className="flex flex-col lg:flex-row gap-12 lg:gap-0 justify-between">
         {/* side bar  */}
-        <div className="side-bar h-[80vh] w-[20%] bg-[#154734] text-white py-3 px-5 rounded-md">
+        <div className="side-bar lg:h-[80vh] lg:w-[20%] bg-[#154734] text-white py-3 px-5 rounded-md">
           <ul className="flex flex-col gap-2 py-3">
             {sideBarData.map((item, index) => (
               <Link to={item.slug} key={index}>
@@ -25,7 +25,7 @@ function Service() {
           </ul>
         </div>
         {/* bar info displayer  */}
-        <div className="w-[75%]">
+        <div className="lg:w-[75%]">
           <Outlet />
         </div>
       </div>

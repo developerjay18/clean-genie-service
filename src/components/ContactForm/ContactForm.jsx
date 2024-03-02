@@ -2,8 +2,8 @@ import React from 'react';
 
 function ContactForm() {
   return (
-    <div className="quote pt-10 mb-1">
-      <h2 className="text-center text-lg flex gap-2 justify-center w-full">
+    <div className="quote mt-3 lg:pt-10 mb-1">
+      <h2 className="text-center text-lg flex gap-2 justify-center w-full flex-col lg:flex-row">
         <span className="font-bold">Request a quote.</span>
         <span>Your local franchise will call you.</span>
       </h2>
@@ -11,38 +11,38 @@ function ContactForm() {
         <form
           action=""
           method="post"
-          className="flex justify-center flex-col gap-5 w-full  items-center"
+          className="flex justify-center flex-col gap-3 lg:gap-5 w-full  items-center"
         >
           {/* col-1  */}
-          <div className="w-full flex justify-around">
+          <div className="w-full flex flex-col lg:flex-row gap-3 lg:gap-0 justify-around">
             <input
               type="text"
               name="name"
               id="name"
               placeholder="Your Name"
-              className="capitalize focus:outline-none  w-[45%] p-3 border border-[#8b8a8a]"
+              className="capitalize focus:outline-none  lg:w-[45%] p-3 border border-[#8b8a8a]"
             />
             <input
               type="tel"
               name="number"
               id="number"
               placeholder="Mobile Number"
-              className="w-[45%] focus:outline-none  p-3 border border-[#8b8a8a]"
+              className="lg:w-[45%] focus:outline-none  p-3 border border-[#8b8a8a]"
             />
           </div>
 
           {/* col-2  */}
-          <div className="w-full flex justify-around">
+          <div className="w-full flex flex-col lg:flex-row gap-3 lg:gap-0 justify-around">
             <input
               type="text"
               name="code"
               id="code"
               placeholder="Postcode"
-              className="capitalize w-[45%] p-3 focus:outline-none border border-[#8b8a8a]"
+              className="capitalize lg:w-[45%] p-3 focus:outline-none border border-[#8b8a8a]"
             />
             <select
               name="cleaning_service"
-              className="w-[45%] p-3 focus:outline-none border border-[#8b8a8a]"
+              className="lg:w-[45%] p-3 focus:outline-none border border-[#8b8a8a]"
             >
               <option value="domestic cleaning">domestic cleaning</option>
               <option value="commercial cleaning">commercial cleaning</option>
@@ -64,7 +64,7 @@ function ContactForm() {
           </div>
 
           {/* col-3  */}
-          <div className="w-full flex justify-end pr-5">
+          <div className="w-full flex justify-end lg:pr-5">
             <button
               type="submit"
               className="capitalize bg-copy-green text-white px-3 py-2 rounded-sm"

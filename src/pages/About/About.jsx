@@ -3,10 +3,10 @@ import { ContactForm, ScrollToTop } from '../../components';
 
 function About() {
   return (
-    <div className="font-poppins px-12 py-20">
+    <div className="font-poppins px-5 lg:px-12 py-5 lg:py-20">
       <ScrollToTop />
       {/* spacer  */}
-      <div className="mt-[9rem]"></div>
+      <div className="lg:mt-[2rem]"></div>
 
       {/* heading  */}
       <div className="">
@@ -17,8 +17,8 @@ function About() {
 
       {/* content  */}
       <div className="content flex flex-col gap-5 mt-10">
-        <div className="flex">
-          <div className="left lg:w-[50%] flex flex-col gap-7 pr-10">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-0">
+          <div className="left lg:w-[50%] flex flex-col gap-7 lg:pr-10">
             <div className="">
               <div className="font-bold text-lg">
                 V.I.P. - the first home services franchise company
