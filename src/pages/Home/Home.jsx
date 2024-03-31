@@ -61,7 +61,7 @@ function Home() {
         {services.map((item, index) => (
           <div className="item lg:w-[24%] lg:h-[40vh]" key={index}>
             {/* upper  */}
-            <div className="upper h-[30vh] lg:h-[33vh] overflow-hidden">
+            <div className="upper md:h-[30vh] lg:h-[33vh] overflow-hidden">
               <img src={item.imgUrl} alt="" className='object-cover h-full w-full' />
             </div>
             {/* lower */}
