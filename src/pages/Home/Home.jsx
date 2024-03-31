@@ -62,7 +62,7 @@ function Home() {
           <div className="item lg:w-[24%] lg:h-[40vh]" key={index}>
             {/* upper  */}
             <div className="upper h-[30vh] lg:h-[33vh] overflow-hidden">
-              <img src={item.imgUrl} alt="" />
+              <img src={item.imgUrl} alt="" className='object-cover h-full w-full' />
             </div>
             {/* lower */}
             <div className="lower h-[7vh] bg-copy-green text-white flex justify-center items-center capitalize">

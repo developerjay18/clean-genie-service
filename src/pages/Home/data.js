@@ -7,55 +7,55 @@ const services = [
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004505/cleaning%20genie/i3tsinbkwcdx8u0jf5yc.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711891469/cleaning%20genie/zwseh4ejpw57ezfummga.jpg',
     link: '',
     title: 'commercial cleaning',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/bal3w61ewsofjcxzraag.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711891633/cleaning%20genie/qr2lzwqagpiuvbf6ocin.jpg',
     link: '',
     title: 'End of lease cleaning',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004505/cleaning%20genie/vsbqyqljesyvqhepl9ia.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711891789/cleaning%20genie/pf3woayqftpwrftvqd4o.avif',
     link: '',
-    title: ' spring cleaning ',
+    title: 'spring cleaning ',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004505/cleaning%20genie/jyjaquwapocqmazvtxpo.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711891930/cleaning%20genie/faflqn6anmyteqy3ar3c.jpg',
     link: '',
-    title: 'once of cleaning ',
+    title: 'once off cleaning ',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/u1eozlpm5xknhaq7kqw3.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711892186/cleaning%20genie/gye1cfdumtzbba2nauvp.webp',
     link: '',
     title: 'steam carpet cleaning ',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709005431/cleaning%20genie/yluxrgaefgzbrpa9avnq.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711890840/cleaning%20genie/s7yaqa02nd0daz9seowo.jpg',
     link: '',
     title: 'pressure washing ',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004503/cleaning%20genie/ypkurjyjwf7tlt4uq3gq.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711890752/cleaning%20genie/vsbmn6va2xvqtisv07sc.jpg',
     link: '',
     title: 'tile and grout cleaning ',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/h5wpoak61snozjpel4rs.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711892002/cleaning%20genie/igupxdtm7czbvruhxr4x.webp',
     link: '',
     title: ' windows cleaning',
   },
   {
     imgUrl:
-      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709004504/cleaning%20genie/ju4urg8zr7py7fjxkmxl.jpg',
+      'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1711892293/cleaning%20genie/xcuvekawjprmsnoltfdv.png',
     link: '',
     title: 'industrial cleaning',
   },
