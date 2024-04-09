@@ -21,11 +21,11 @@ function About() {
           <div className="left lg:w-[50%] flex flex-col gap-7 lg:pr-10">
             <div className="">
               <div className="font-bold text-lg">
-                V.I.P. - the first home services franchise company
+                Clean Genie - the first home services franchise company
               </div>
               <p>
-                V.I.P. was the very first home services franchise company in
-                Australia and only the 3rd franchise company in the country.
+                Clean Genie was the very first home services franchise company
+                in Australia and only the 3rd franchise company in the country.
                 Established in 1979, it’s been going from strength to strength,
                 has won multiple awards and today remains a proud family
                 business.
@@ -33,17 +33,17 @@ function About() {
             </div>
 
             <div className="">
-              <div className="font-bold text-lg">How V.I.P. started</div>
+              <div className="font-bold text-lg">How Clean Genie started</div>
               <p>
                 Back in the 1970s, Bill Vis, was selling vacuum cleaners door to
                 door. However, with his keen eye for detail, he happened to
                 notice that the lawn of the latest customer who didn’t want to
                 buy a vacuum cleaner badly needed mowing. He asked the question,
                 they said ‘yes’ and the rest is history. After lawn and garden
-                care followed more home services and today, V.I.P. offer a whole
-                suite of home services and have helped thousands of franchisees
-                across Australia and in New Zealand get started with their own
-                business.
+                care followed more home services and today, Clean Genie offer a
+                whole suite of home services and have helped thousands of
+                franchisees across Australia and in New Zealand get started with
+                their own business.
               </p>
             </div>
 
@@ -61,11 +61,11 @@ function About() {
             <div className="">
               <div className="font-bold text-lg">Proud family business</div>
               <p>
-                Today, V.I.P. is still headed up by its founder, Bill Vis, three
-                of his kids have joined the company and co-founder Rose Vis, is
-                still involved with the business, so it really is one big happy
-                family. Many of the staff at V.I.P. have been with the
-                organisation for over 10 years and quite a few of the
+                Today, Clean Genie is still headed up by its founder, Bill Vis,
+                three of his kids have joined the company and co-founder Rose
+                Vis, is still involved with the business, so it really is one
+                big happy family. Many of the staff at Clean Genie have been
+                with the organisation for over 10 years and quite a few of the
                 franchisees have clocked up 20+ years with the organisation. Now
                 that’s saying something, especially these days!
               </p>
@@ -74,12 +74,12 @@ function About() {
             <div className="">
               <div className="font-bold text-lg">Going into the future</div>
               <p>
-                At V.I.P. we’ll continue to embrace the latest technologies,
-                continue to innovate, and remain committed to staying at the
-                forefront of the home services industry. Our aim when we began,
-                way back in 1979, was to offer the very best service and treat
-                every single customer as a V.I.P. - and that is one thing that
-                will never, ever change.
+                At Clean Genie we’ll continue to embrace the latest
+                technologies, continue to innovate, and remain committed to
+                staying at the forefront of the home services industry. Our aim
+                when we began, way back in 1979, was to offer the very best
+                service and treat every single customer as a Clean Genie - and
+                that is one thing that will never, ever change.
               </p>
             </div>
           </div>

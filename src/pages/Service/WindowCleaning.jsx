@@ -25,14 +25,14 @@ function WindowCleaning() {
                 security grills in need of a regular or once off clean?
               </p>
               <p>
-                Whether it is window cleaning at home or at your business,
-                V.I.P. can take care of your window cleaning needs.
+                Whether it is window cleaning at home or at your business, Clean
+                Genie can take care of your window cleaning needs.
               </p>
             </div>
           </div>
 
           <div className="">
-            <p>V.I.P. Window Cleaning franchisees can provide:</p>
+            <p>Clean Genie Window Cleaning franchisees can provide:</p>
             <div className="pt-5">
               <ul className="flex flex-col gap-2">
                 {WindowsCPoints.map((item, index) => (
@@ -58,7 +58,7 @@ function WindowCleaning() {
 
       {/* conatct form  */}
       <div className="mt-10 lg:mt-0">
-      <ContactForm />
+        <ContactForm />
       </div>
     </div>
   );

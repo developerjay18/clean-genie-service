@@ -40,7 +40,7 @@ function CarpetCleaning() {
             </div>
           </div>
           <div className="flex flex-col gap-2">
-            <div className="font-bold text-lg">Why choose V.I.P.?</div>
+            <div className="font-bold text-lg">Why choose Clean Genie?</div>
             <div className="">
               <ul className="flex flex-col gap-2">
                 {carpetCPoints.map((item, index) => (

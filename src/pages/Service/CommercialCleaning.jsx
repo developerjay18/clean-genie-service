@@ -26,7 +26,7 @@ function CommercialCleaning() {
           </p>
           <p>
             But it’s not always easy to keep your business clean. That’s why at
-            V.I.P. Commercial Cleaning, we’re on your team.
+            Clean Genie Commercial Cleaning, we’re on your team.
           </p>
 
           <Link>
@@ -48,11 +48,11 @@ function CommercialCleaning() {
               Island before. You need quality cleaning done consistently by
               trained, proactive professionals you can trust.
             </p>
-            <p>That’s V.I.P. Commercial Cleaning!</p>
+            <p>That’s Clean Genie Commercial Cleaning!</p>
             <p>
               Whether it’s your office, warehouse, medical centre, school,
-              childcare centre or another setting, your local V.I.P. Commercial
-              Cleaning franchisee is ready to get to work.
+              childcare centre or another setting, your local Clean Genie
+              Commercial Cleaning franchisee is ready to get to work.
             </p>
             <p>
               We’ve been around for over 40 years and supporting businesses in
@@ -68,12 +68,15 @@ function CommercialCleaning() {
           </div>
           <div className="flex flex-col gap-3">
             <p>
-              Your local V.I.P. Commercial Cleaning business provides a complete
-              service – backed by our 100% satisfaction guarantee.
+              Your local Clean Genie Commercial Cleaning business provides a
+              complete service – backed by our 100% satisfaction guarantee.
             </p>
             <div className="flex flex-wrap justify-between gap-y-7 lg:gap-y-6 py-6">
               {commercialCleaningCards.map((item, index) => (
-                <div className="card lg:w-[30%] flex flex-col gap-3" key={index}>
+                <div
+                  className="card lg:w-[30%] flex flex-col gap-3"
+                  key={index}
+                >
                   <div className="img">
                     <img src={item.imgUrl} alt="" className="mx-auto" />
                   </div>
@@ -97,8 +100,8 @@ function CommercialCleaning() {
 
           <div className="flex flex-col gap-3">
             <p>
-              Your premises deserve the V.I.P. treatment. Whatever your needs
-              and budget, we can tailor a package to suit including:
+              Your premises deserve the Clean Genie treatment. Whatever your
+              needs and budget, we can tailor a package to suit including:
             </p>
             <div className="">
               <ul className="inline-flex flex-col gap-2 py-4">

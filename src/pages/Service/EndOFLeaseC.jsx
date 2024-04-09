@@ -44,8 +44,8 @@ function EndOFLeaseC() {
 
         <div className="flex flex-col gap-1">
           <p className="font-bold text-lg">
-            Book a V.I.P. End Of Lease Cleaning Service then just lock up and
-            walk away
+            Book a Clean Genie End Of Lease Cleaning Service then just lock up
+            and walk away
           </p>
           <div className="flex flex-col gap-3">
             <p>
@@ -53,8 +53,8 @@ function EndOFLeaseC() {
               with the car loaded up with cleaning products, mops, brooms and
               the vacuum cleaner plus all the attachments (assuming you don’t
               forget that little one) — instead of all that, why don’t you let
-              one of our V.I.P. franchisees take care of that stressful End Of
-              Lease Cleaning for you?
+              one of our Clean Genie franchisees take care of that stressful End
+              Of Lease Cleaning for you?
             </p>
           </div>
         </div>
@@ -64,12 +64,12 @@ function EndOFLeaseC() {
           <div className="flex flex-col gap-3">
             <p>
               Whether you’re the homeowner or you need to make sure that you get
-              your bond back once you move out of your rental property, a V.I.P.
-              Exit Cleaning Service really is the perfect solution. So, once
-              you’ve packed up, simply take that last box with you, close the
-              door and walk away with a smile on your face. We’ll then take care
-              of the rest so you can focus on your next exciting chapter — life
-              at your new home.
+              your bond back once you move out of your rental property, a Clean
+              Genie Exit Cleaning Service really is the perfect solution. So,
+              once you’ve packed up, simply take that last box with you, close
+              the door and walk away with a smile on your face. We’ll then take
+              care of the rest so you can focus on your next exciting chapter —
+              life at your new home.
             </p>
           </div>
         </div>
@@ -89,8 +89,8 @@ function EndOFLeaseC() {
             <p>
               If you’re managing a number of rental properties or you’ve got a
               popular Airbnb property with lots of short-term visitors to
-              continually clean up after, contact us at V.I.P. and talk to us
-              about tailoring an Exit Cleaning Package specially for you.
+              continually clean up after, contact us at Clean Genie and talk to
+              us about tailoring an Exit Cleaning Package specially for you.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ function EndOFLeaseC() {
 
       {/* contact form  */}
       <div className="mt-5 lg:mt-0">
-      <ContactForm />
+        <ContactForm />
       </div>
     </div>
   );

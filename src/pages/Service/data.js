@@ -46,7 +46,7 @@ const commercialCleaningCards = [
       'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709090846/cleaning%20genie/tcfggxy6h62pm2kdv2xu.jpg',
     title: 'Commercial Cleaning',
     content:
-      'Your search for “commercial cleaning near me” ends here. Your local V.I.P. franchisee is a trusted member of the local business community – across government and corporate workplaces.',
+      'Your search for “commercial cleaning near me” ends here. Your local Clean Genie franchisee is a trusted member of the local business community – across government and corporate workplaces.',
   },
   {
     imgUrl:
@@ -60,7 +60,7 @@ const commercialCleaningCards = [
       'https://res.cloudinary.com/remind-cents-cloud/image/upload/v1709090860/cleaning%20genie/kvs3hn3kz0fhzeeusu8t.jpg',
     title: 'Childcare Cleaning',
     content:
-      'Your V.I.P. franchisee uses safe, eco-friendly products to keep your school or childcare centre free from germs.',
+      'Your Clean Genie franchisee uses safe, eco-friendly products to keep your school or childcare centre free from germs.',
   },
   {
     imgUrl:
