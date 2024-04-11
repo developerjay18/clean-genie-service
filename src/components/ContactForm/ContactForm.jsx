@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import toast from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import config from '../../config/config.js';
 
 function ContactForm() {
@@ -129,6 +130,7 @@ function ContactForm() {
           </div>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 }
