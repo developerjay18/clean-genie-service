@@ -15,12 +15,10 @@ function ContactForm() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
-    console.log(formData);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('I am prinitng');
 
     emailjs
       .sendForm(config.serviceID, config.templateID, form.current, {
@@ -28,7 +26,6 @@ function ContactForm() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
           toast.success('Form submitted successfully');
           setFormData({
             name: '',
