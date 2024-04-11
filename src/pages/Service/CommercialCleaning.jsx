@@ -29,7 +29,7 @@ function CommercialCleaning() {
             Clean Genie Commercial Cleaning, we’re on your team.
           </p>
 
-          <Link>
+          <Link to={'/contact-us'}>
             <button className="capitalize bg-copy-green text-white px-5 rounded-sm py-2 font-semibold">
               Book today
             </button>
@@ -85,7 +85,7 @@ function CommercialCleaning() {
                 </div>
               ))}
             </div>
-            <Link>
+            <Link to={'/contact-us'}>
               <button className="capitalize bg-copy-green text-white px-5 rounded-sm py-2 font-semibold">
                 Book today
               </button>
@@ -116,7 +116,7 @@ function CommercialCleaning() {
               </ul>
             </div>
 
-            <Link>
+            <Link to={'/contact-us'}>
               <button className="capitalize bg-copy-green text-white px-5 rounded-sm py-2 font-semibold">
                 Book today
               </button>

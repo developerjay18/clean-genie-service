@@ -103,7 +103,7 @@ function Navbar() {
         </div>
         {/* absolute div  */}
         <div className="upper flex absolute top-0 right-0 justify-end">
-          <Link to={'/'}>
+          <Link to={'/contact-us'}>
             <div className="contact bg-red-600 flex justify-center items-center text-white p-1 px-2 text-lg">
               Call 0433513336
             </div>
@@ -169,12 +169,14 @@ function Navbar() {
                       ))}
                     </nav>
                   </div>
-                  <button
-                    type="button"
-                    className="mt-4 w-full rounded-md px-3 py-2 text-sm font-semibold shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black bg-copy-green text-white"
-                  >
-                    Call 0433513336
-                  </button>
+                  <Link to={'/contact-us'}>
+                    <button
+                      type="button"
+                      className="mt-4 w-full rounded-md px-3 py-2 text-sm font-semibold shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black bg-copy-green text-white"
+                    >
+                      Call 0433513336
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

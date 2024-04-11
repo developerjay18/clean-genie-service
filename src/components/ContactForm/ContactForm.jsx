@@ -1,6 +1,49 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
+import config from '../../config/config.js';
 
 function ContactForm() {
+  const [formData, setFormData] = useState({
+    name: '',
+    mobileNumber: '',
+    postalCode: '',
+    service: '',
+  });
+  const form = useRef();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    console.log(formData);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('I am prinitng');
+
+    emailjs
+      .sendForm(config.serviceID, config.templateID, form.current, {
+        publicKey: config.publicKey,
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          toast.success('Form submitted successfully');
+          setFormData({
+            name: '',
+            mobileNumber: '',
+            postalCode: '',
+            service: '',
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+          toast.error('Please try again');
+        }
+      );
+  };
+
   return (
     <div className="quote mt-3 lg:pt-10 mb-1">
       <h2 className="text-center text-lg flex gap-2 justify-center w-full flex-col lg:flex-row">
@@ -12,6 +55,8 @@ function ContactForm() {
           action=""
           method="post"
           className="flex justify-center flex-col gap-3 lg:gap-5 w-full  items-center"
+          onSubmit={handleSubmit}
+          ref={form}
         >
           {/* col-1  */}
           <div className="w-full flex flex-col lg:flex-row gap-3 lg:gap-0 justify-around">
@@ -21,13 +66,19 @@ function ContactForm() {
               id="name"
               placeholder="Your Name"
               className="capitalize focus:outline-none  lg:w-[45%] p-3 border border-[#8b8a8a]"
+              onChange={handleChange}
+              value={formData.name}
+              required
             />
             <input
               type="tel"
-              name="number"
-              id="number"
+              name="mobileNumber"
+              id="mobileNumber"
               placeholder="Mobile Number"
               className="lg:w-[45%] focus:outline-none  p-3 border border-[#8b8a8a]"
+              onChange={handleChange}
+              value={formData.mobileNumber}
+              required
             />
           </div>
 
@@ -35,14 +86,21 @@ function ContactForm() {
           <div className="w-full flex flex-col lg:flex-row gap-3 lg:gap-0 justify-around">
             <input
               type="text"
-              name="code"
-              id="code"
+              name="postalCode"
+              id="postalCode"
               placeholder="Postcode"
               className="capitalize lg:w-[45%] p-3 focus:outline-none border border-[#8b8a8a]"
+              onChange={handleChange}
+              value={formData.postalCode}
+              required
             />
             <select
-              name="cleaning_service"
+              id="service"
+              name="service"
               className="lg:w-[45%] p-3 focus:outline-none border border-[#8b8a8a]"
+              onChange={handleChange}
+              value={formData.service}
+              required
             >
               <option value="domestic cleaning">domestic cleaning</option>
               <option value="commercial cleaning">commercial cleaning</option>
